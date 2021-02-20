@@ -30,7 +30,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm instrall, and test\
+    - name: npm instrall, and test
       run: |
         npm install
         npm test
